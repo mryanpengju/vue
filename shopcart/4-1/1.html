@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.11.3.min.js"></script>
+
+    <script>
+        $(function () {
+            console.log(1)
+            $('input').blur(function(){
+//$(this) 就是你点击的输入框
+                console.log($(this).index()) // 0 , 1,2,3   input有四个同辈元素
+              })
+
+        })
+    </script>
+</head>
+<body>
+
+<input/><input/><input/><input/>
+
+
+
+
+
+
+
+</body>
+</html>

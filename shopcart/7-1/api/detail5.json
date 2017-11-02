@@ -1,0 +1,11 @@
+{
+  "name":"iphone11",
+  "price":5100,
+  "pid":"1231231235",
+  "fdj":[
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"}
+  ]
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script>
+
+        $(function () {
+
+            //正常数据接口
+            var url = 'https://api.readhub.me/topic?lastCursor=7544&pageSize=10'
+            $.ajax({
+                url:url,
+                type:'get',
+//                dataType:'json',
+                success:function (res) {
+                    //console.log(res);
+                    var obj =  JSON.parse(res);
+                    console.log(obj)
+                },
+                error:function (error) {
+                    console.log(error);
+                }
+            });
+
+//            正常数据接口
+            var data = {lastCursor:7544,pageSize:10}
+            var url = 'https://api.readhub.me/topic'
+            $.ajax({
+                url:url,
+                type:'get',
+//                dataType:'json',
+                data:data ,//设置参数
+                success:function (res) {
+                    //console.log(res);
+                    var obj =  JSON.parse(res);
+                    console.log(obj)
+                },
+                error:function (error) {
+                    console.log(error);
+                }
+            });
+
+// //正常数据接口
+            var data = {lastCursor:7544,pageSize:10}
+            var url = 'https://api.readhub.me/topic'
+            $.ajax({
+                url:url,
+                type:'post',
+//                dataType:'json',
+                data:data ,//设置参数
+                success:function (res) {
+                    //console.log(res);
+                    var obj =  JSON.parse(res);
+                    console.log(obj)
+                },
+                error:function (error) {
+                    console.log(error);
+                }
+            });
+
+
+
+
+            //jsonp数据接口
+            //&cb=jQuery1102045621865612995216_1498111113677
+            var url1 = 'https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=n'
+            //jsonp 接口 必须 两个字段  dataType:'jsonp'， jsonp:'callback'（回调函数字段）
+            $.ajax({
+                url:url1,
+                dataType:'jsonp',
+                jsonp:'cb',
+                success:function (res) {
+                    console.log(res)
+                },
+                error:function (error) {
+                    console.log(error)
+                }
+
+            })
+
+
+
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

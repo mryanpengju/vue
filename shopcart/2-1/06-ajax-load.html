@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script>
+        $(function () {
+            $('.h1').load('header.html',function () {
+                console.log('数据请求成功')
+            })
+
+
+
+
+
+//            $('.h1').load('header.html .header',function () {
+//                console.log('数据请求成功')
+//            })
+
+//            $('.f1').load('header.html .footer',function () {
+//                console.log('数据请求成功')
+//            })
+        })
+
+
+    </script>
+</head>
+<body>
+
+<div class="h1"></div>
+
+
+<div class="f1"></div>
+
+
+</body>
+</html>

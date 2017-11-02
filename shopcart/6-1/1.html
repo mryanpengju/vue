@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script>
+
+//        window.onload = function () {
+//
+//        }
+//        window.onload = function () {
+//
+//        }
+//        window.onload = function () {
+//
+//        }
+
+        $(function () {
+
+            $('img').click(function () {
+
+
+                var url = 'http://www.hua.com/Passport/Register/BaseImageValidCode';
+                //随机出来一个时间，让url 每次都不一行
+                var now = new Date();
+                url =url + '?'+ now;
+
+
+                $(this).attr('src',url)
+            })
+
+        })
+
+    </script>
+</head>
+<body>
+<img src="http://www.hua.com/Passport/Register/BaseImageValidCode">
+
+</body>
+</html>

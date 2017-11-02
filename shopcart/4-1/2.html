@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.11.3.min.js"></script>
+
+    <script>
+        $(function () {
+
+            $('input').blur(function(){
+                console.log($(this).index())//一直是 0，input 没有同辈元素
+            })
+        })
+
+    </script>
+</head>
+<body>
+    <form> <input/></form>
+
+    <form> <input/></form>
+    <form> <input/></form>
+</body>
+</html>

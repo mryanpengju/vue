@@ -1,0 +1,11 @@
+{
+  "name":"iphone8",
+  "price":4800,
+  "pid":"1231231232",
+  "fdj":[
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"}
+  ]
+}

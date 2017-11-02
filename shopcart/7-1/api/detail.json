@@ -1,0 +1,11 @@
+{
+  "name":"iphone7",
+  "price":4700,
+  "pid":"1231231231",
+  "fdj":[
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"}
+  ]
+}

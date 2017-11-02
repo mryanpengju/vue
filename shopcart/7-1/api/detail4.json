@@ -1,0 +1,11 @@
+{
+  "name":"iphone10",
+  "price":5000,
+  "pid":"1231231234",
+  "fdj":[
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"}
+  ]
+}

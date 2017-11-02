@@ -1,0 +1,11 @@
+{
+  "name":"iphone12",
+  "price":8000,
+  "pid":"1231231236",
+  "fdj":[
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"},
+    {"smallImageUrl":"1.png","smallImageUrl":"1_small.png"}
+  ]
+}

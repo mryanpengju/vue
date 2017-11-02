@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script>
+        var data = {lastCursor:7544,pageSize:10}
+        var url = 'https://api.readhub.me/topic'
+        $.getJSON(url,data,function (res) {
+            console.log(res);
+        })
+
+        $.getJSON('https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=n&cb=?',function (res) {
+            console.log(res,'jsonp');
+        })
+
+        $.get(url,data,function (res) {
+//            console.log(res);
+            var obj = JSON.parse(res);
+            console.log(obj);
+
+        })
+
+        $.getScript('f1.js',function (res) {
+//            console.log(res);
+        })
+
+//        $.post(url,data,function (res) {
+//
+//        })
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
